@@ -14,7 +14,7 @@ GET http://localhost:3332/videos
 //Esse método é responsável por listar todos os vídeos
 ###
 
-PUT http://localhost:3332/videos/
+PUT http://localhost:3332/videos/84672857-33db-4cfc-a0f8-d18ef2502bcd
 Content-Type:application/json
 //Esse método é responsável por atualizar um vídeo
     {
@@ -24,3 +24,6 @@ Content-Type:application/json
     "duration": 120
     }
 
+###
+
+DELETE http://localhost:3332/videos/84672857-33db-4cfc-a0f8-d18ef2502bcd
