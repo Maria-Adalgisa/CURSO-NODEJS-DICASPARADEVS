@@ -50,6 +50,6 @@ server.delete("/videos/:id", (request, reply) => {
 //server.listen({
 // port: 3332,
 //});--------------------
-server.listen(3332, () => {
+server.listen({port: 3332}, () => {
   console.log("Servidor rodando na porta 3332");
 });
